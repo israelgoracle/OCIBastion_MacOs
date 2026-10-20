@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "current": {
+    "configPath": "/Users/example/.oci/config",
+    "profile": "SAMPLE",
+    "compartmentID": "",
+    "bastionID": "ocid1.bastion.oc1.region.example",
+    "publicKeyPath": "/Users/example/.ssh/bastion.pub",
+    "privateKeyPath": "/Users/example/.ssh/bastion",
+    "socksPort": 20000,
+    "ttlSeconds": 10800,
+    "proxyHost": "",
+    "proxyPort": 0,
+    "proxyMode": "direct",
+    "terminalApp": "iterm",
+    "destinations": []
+  },
+  "savedConnections": [
+    {
+      "id": "D6B363AB-6C75-429B-A80D-34A3AB985E18",
+      "name": "Example direct",
+      "snapshot": {
+        "configPath": "/Users/example/.oci/config",
+        "profile": "SAMPLE",
+        "compartmentID": "",
+        "bastionID": "ocid1.bastion.oc1.region.example",
+        "publicKeyPath": "/Users/example/.ssh/bastion.pub",
+        "privateKeyPath": "/Users/example/.ssh/bastion",
+        "socksPort": 20000,
+        "ttlSeconds": 10800,
+        "proxyHost": "",
+        "proxyPort": 0,
+        "proxyMode": "direct",
+        "terminalApp": "iterm",
+        "destinations": []
+      }
+    },
+    {
+      "id": "732D70FC-079F-4187-B28C-D7287E38613F",
+      "name": "Example automatic proxy",
+      "snapshot": {
+        "configPath": "/Users/example/.oci/config",
+        "profile": "SAMPLE",
+        "compartmentID": "",
+        "bastionID": "ocid1.bastion.oc1.region.example",
+        "publicKeyPath": "/Users/example/.ssh/bastion.pub",
+        "privateKeyPath": "/Users/example/.ssh/bastion",
+        "socksPort": 20000,
+        "ttlSeconds": 10800,
+        "proxyHost": "",
+        "proxyPort": 0,
+        "proxyMode": "automatic",
+        "terminalApp": "iterm",
+        "destinations": []
+      }
+    }
+  ],
+  "selectedSavedConnectionID": "D6B363AB-6C75-429B-A80D-34A3AB985E18"
+}

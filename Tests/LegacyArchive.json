@@ -1,0 +1,54 @@
+{
+  "current": {
+    "bastionID": "ocid1.bastion.oc1.region.example",
+    "compartmentID": "ocid1.compartment.oc1..example",
+    "configPath": "/Users/example/.oci/config",
+    "destinations": [
+      {
+        "host": "10.0.0.47",
+        "id": "D9223D7D-C691-4F42-B613-ADCC1CBF1B63",
+        "name": "Example destination",
+        "port": 22,
+        "privateKeyPath": "/Users/example/.ssh/bastion",
+        "user": "opc"
+      }
+    ],
+    "privateKeyPath": "/Users/example/.ssh/bastion",
+    "profile": "SAMPLE",
+    "proxyHost": "",
+    "proxyPort": 0,
+    "publicKeyPath": "/Users/example/.ssh/bastion.pub",
+    "socksPort": 2222,
+    "ttlSeconds": 10800
+  },
+  "formatVersion": 1,
+  "savedConnections": [
+    {
+      "id": "C97FAA47-AA29-405C-9F58-94CEC946AA2F",
+      "name": "Example instance",
+      "snapshot": {
+        "bastionID": "ocid1.bastion.oc1.region.example",
+        "compartmentID": "ocid1.compartment.oc1..example",
+        "configPath": "/Users/example/.oci/config",
+        "destinations": [
+          {
+            "host": "10.0.0.47",
+            "id": "D9223D7D-C691-4F42-B613-ADCC1CBF1B63",
+            "name": "Example destination",
+            "port": 22,
+            "privateKeyPath": "/Users/example/.ssh/bastion",
+            "user": "opc"
+          }
+        ],
+        "privateKeyPath": "/Users/example/.ssh/bastion",
+        "profile": "SAMPLE",
+        "proxyHost": "",
+        "proxyPort": 0,
+        "publicKeyPath": "/Users/example/.ssh/bastion.pub",
+        "socksPort": 2222,
+        "ttlSeconds": 10800
+      }
+    }
+  ],
+  "selectedSavedConnectionID": "C97FAA47-AA29-405C-9F58-94CEC946AA2F"
+}

@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "savedConnections": [
+    {
+      "id": "892A0F69-EFF3-4B1D-AEE8-5FE864DFD08D",
+      "name": "Example agent",
+      "snapshot": {
+        "configPath": "/Users/example/.oci/config",
+        "profile": "SAMPLE",
+        "compartmentID": "",
+        "bastionID": "ocid1.bastion.oc1.region.example",
+        "publicKeyPath": "/Users/example/.ssh/bastion.pub",
+        "privateKeyPath": "/Users/example/.ssh/bastion",
+        "socksPort": 20000,
+        "ttlSeconds": 10800,
+        "proxyHost": "",
+        "proxyPort": 0,
+        "proxyMode": "direct",
+        "terminalApp": "iterm",
+        "destinations": []
+      }
+    }
+  ],
+  "selectedSavedConnectionID": "892A0F69-EFF3-4B1D-AEE8-5FE864DFD08D"
+}

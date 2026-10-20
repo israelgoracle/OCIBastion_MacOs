@@ -1,0 +1,13 @@
+.build/
+.DS_Store
+dist/
+.swiftpm/
+Tests/LocalFixtures/
+**/settings.json
+**/owned-tunnel.json
+*.key
+*.pem
+*.p12
+*.pfx
+*.pub
+*.conf
